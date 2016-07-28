@@ -12,27 +12,27 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 
 ![](img/immediate_to_buy.png)![](img/apply_to_buy.png)
   
-<br></br>
+<br>
 2)签订数据订购合约。甲方为数据需求方，乙方为数据提供方。  
 <br></br>
 
 ![](img/contract.png)
- <br></br>
+ <br>
 3)查看签约结果。订购成功后，可立即在 Client 客户端开始 pull 数据。  
 <br></br>
 
 ![](img/success_to_buy.png)
  
-<br></br>  
+<br>  
 4)您可以在“我的订购”中查看全部的订单信息。  
 <br></br>
 
 ![](img/my_order.png)
  
 ###第二步：数据下载（ Client 客户端操作）
-<br></br>
+<br>
 1)创建 Datapool
-<br></br>
+<br>
 如果需要下载数据，则必须创建相应的 Datapool 。
 
 	datahub dp create mydp file:///home/usr/data/itempull
@@ -42,10 +42,10 @@ DataHub 提供的数据类型包括：批量数据、 API 数据和流式数据�
 如果成功，会显示：
 
 	DataHub : Datapool has been created successfully. 	Name:datahubdp1 Type:file Path:/home/usr/data/itempull. 
-<br></br>
+<br>
 
 2)数据下载
-<br></br>
+<br>
 	datahub pull repotest/itemtest:tagtest mydp://mydir1 --destname=tagdestname
 
 以上命令下载了一个 tag 对应的数据到 mydp 中，子路径是 mydir1 。

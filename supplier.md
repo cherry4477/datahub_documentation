@@ -9,27 +9,27 @@
 ###第一步：新增 Repository （网页端操作）
 
 1)如果您是认证用户，登录之后，您可以开始发布数据了。进入 DataHub 网站（ hub.dataos.io ）“我的发布”，或者直接输入网址：[https://hub.dataos.io/my/publish](https://hub.dataos.io/my/publish)。
-<br></br>
+<br>
 ![](/img/mypub.png)
-<br></br>
+<br>
 2)在“我的发布”页面，选择开放或私有 Repository （新建私有 Repository 需要会员级别是钻石会员或金卡会员）。
-<br></br>
+<br>
 ![](img/mypub2.png)
-<br></br>
+<br>
 3)在弹出的“新增 Repository ”的设置页面，填写 Repository 的名称、描述和属性。
-<br></br>
+<br>
 ![](img/new_repo_create.png)
-<br></br>
+<br>
 4)填写信息提交后，我的发布页面将出现新的 Repository 信息。
-<br></br>
+<br>
 ![](img/new_repo.png)
 
 ###第二步：新增 DataItem （ Client 客户端操作）
 
 假设在 `/home/myusr/data/topub` 目录下存在若干文件，我们要发布这个目录里面的数据。
-<br></br>
+<br>
 1)创建 Datapool
-<br></br>
+<br>
 数据提供方使用 Client 客户端发布 DataItem 前，需要在本地基于已有数据建立一个 Datapool ，发布这个 Datapool 里面的数据。
 
 	datahub dp create mydp file:///home/myusr/data
@@ -39,9 +39,9 @@
 如果成功，会显示：
  
 	Datapool has been created successfully. 	Name:mydp type:file path:/home/myusr/data.
-<br></br>
+<br>
 2)新增 DataItem
-<br></br>
+<br>
 发布 DataItem 需要指定 `$DATAPOOL` 和 `$DATAPOOL` 下的子路径 `$LOCATION` 。可选参数item属性（ accesstype ），可选为public或者 private, 默认 private；可选参数item描述（ comment ）；可选参数数据类型（ supplystyle ），可为流式（ flow ）、 api 、批量（ batch ）中的一种，默认为批量。
 
 	datahub pub myrepo/myitem mydp://topub --accesstype=public --comment="my test item" --supplystyle=batch
@@ -51,9 +51,9 @@
 如果成功，会显示：
 
 	DataHub : Successed in publishing.
-<br></br>
+<br>
 3)补充 DataItem 信息
-<br></br>
+<br>
 您可以选择在网页端或 Client 客户端对 DataItem 的信息进行补充。
 
 *  在网页端补充 DataItem 信息
