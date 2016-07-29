@@ -5,7 +5,7 @@
 #####命令  
 	datahub dp  
 #####输出  
-输出datahub数据池名称DPNAME ,每个数据池类型DPTYPE	  
+输出 datahub 数据池名称 DPNAME ,每个数据池类型 DPTYPE	  
   
 	%DPNAME    %DPTYPE
 	
@@ -24,7 +24,7 @@
 
 	datahub dp  $DPNAME
 #####输出	  
-	输出datahub数据池名称DPNAME ,每个数据池类型DPTYPE	  
+	输出 datahub 数据池名称 DPNAME ,每个数据池类型 DPTYPE	  
   
 		%DPNAME          %DPTYPE        %DPCONN
 	%REPOSITORY/%DATAITEM:%TAG  %LOCAL_TIME        %T
@@ -44,16 +44,16 @@
 	%msg
 	
 #####例子  
-* 设置file类型的数据池  
+* 设置 file 类型的数据池  
 
 		bash-3.2# datahub dp create datahubdp2 file:///var/lib/datahub
 		DataHub : Datapool has been created successfully. Name:datahubdp2 Type:file Path:/var/lib/datahub.    
   
-* 创建s3类型的数据池。mybucket是s3上已存在的bucket。另外，需要在启动daemon的系统中设置环境变量：AWS_SECRET_ACCESS_KEY， AWS_ACCESS_KEY_ID， AWS_REGION。   
+* 创建 s3 类型的数据池。mybucket 是 s3 上已存在的 bucket 。另外，需要在启动 daemon 的系统中设置环境变量：AWS_SECRET_ACCESS_KEY， AWS_ACCESS_KEY_ID， AWS_REGION。   
 
 		bash-3.2#  datahub dp create s3dp s3://mybucket
 		DataHub : s3dp already exists, please change another name.
-* 创建hdfs类型的数据池。hdfs://”后需要接hdfs的连接串。  
+* 创建 hdfs 类型的数据池。 hdfs://”后需要接 hdfs 的连接串。  
 		  
 		$ datahub dp create hdfsdp hdfs://				user123:admin123@x.x.x.x:9000  
 		
