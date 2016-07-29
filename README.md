@@ -1,5 +1,5 @@
 #  DataHub 
-<br><hr style=" height:12px;border:none;border-top:4px solid #A9A9A9;" />
+<hr style=" border:4px solid #A9A9A9;" /> 
 
 - DataHub是数据链接平台,是数据链接的工具。
 
