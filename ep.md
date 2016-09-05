@@ -14,7 +14,7 @@
 	datahub ep http://$ip:$port  
 #####输出
 	%msg  
-#####例子s
+#####例子
 	bash-3.2# datahub ep http://192.168.2.255:2323
 	DataHub : OK. your entrypoint is: http://192.168.2.255:2323
 	The entrypoint is setted successfully.  You can check whether it is available in one minute.

@@ -32,3 +32,4 @@
     bash-3.2# datahub pub datahubrepo1/datahubitem1:datahubtag1 datahubtag --comment=帮助文档样例tag描述
 	DataHub : Successed in publishing.  
 
+

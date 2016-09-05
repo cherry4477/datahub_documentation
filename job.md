@@ -19,7 +19,7 @@
 	datahub job $jobid  
 #####输出
 	%JOBID   %STATUS  %DOWN   %TOTAL    %PERCENT   %TAG
-#####例子s
+#####例子
 	bash-3.2#  datahub job ebcda4c5
 	JOBID   	STATUS      	DOWN      	TOTAL     	PERCENT   	TAG       
 	--------------------------------------------------------------------------------------------------
@@ -30,7 +30,7 @@
 	datahub job --all   
 #####输出
 	%JOBID   %STATUS  %DOWN   %TOTAL    %PERCENT   %TAG
-#####例子s
+#####例子
 	
 	bash-3.2#  datahub job --all
 	JOBID   	STATUS        DOWN      	TOTAL     	PERCENT   	TAG       

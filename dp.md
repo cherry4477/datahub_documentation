@@ -38,7 +38,7 @@
 创建数据池时可以设定数据池的类型，目前支持 file 、 s3 、 hdfs 三种类型。
 #####命令  
 
-	datahub dp  creat $DPNAME [[file://][ABSOLUTE PATH]] | [[s3://][BUCKET]] | [[hdfs://][USERNAME:PASSWORD@HOST:PORT]]
+	datahub dp  create $DPNAME [[file://][ABSOLUTE PATH]] | [[s3://][BUCKET]] | [[hdfs://][USERNAME:PASSWORD@HOST:PORT]]
 #####输出	
   
 	%msg
