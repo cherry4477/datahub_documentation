@@ -6,17 +6,17 @@
 
 发布数据是数据提供方的行为，需要在网页端和 Client 客户端分步操作。在网页端您可以完成：新增私有\开放 Repository 、修改私有\开放 Repository 、修改私有\开放 DataItem ，而新增私有\开放 DataItem 、新增 Tag 等则需要通过客户端( Client )来完成。
 
-###第一步：新增 Repository （网页端操作）
+### 第一步：新增 Repository （网页端操作）
 
-1)如果您是认证用户，登录之后，您可以开始发布数据了。进入 DataHub 网站（ hub.dataos.io ）“我的发布”，或者直接输入网址：[https://hub.dataos.io/my/publish](https://hub.dataos.io/my/publish)。
+1) 如果您是认证用户，登录之后，您可以开始发布数据了。进入 DataHub 网站（ hub.dataos.io ）“我的发布”，或者直接输入网址：[https://hub.dataos.io/my/publish](https://hub.dataos.io/my/publish)。
 <br>
 ![](/img/mypub.png)
 <br>
-2)在“我的发布”页面，选择开放或私有 Repository （新建私有 Repository 需要会员级别是钻石会员或金卡会员）。
+2) 在“我的发布”页面，选择开放或私有 Repository （新建私有 Repository 需要会员级别是钻石会员或金卡会员）。
 <br>
 ![](img/mypub2.png)
 <br>
-3)在弹出的“新增 Repository ”的设置页面，填写 Repository 的名称、描述和属性。
+3) 在弹出的“新增 Repository ”的设置页面，填写 Repository 的名称、描述和属性。
 <br>
 ![](img/new_repo_create.png)
 <br>
