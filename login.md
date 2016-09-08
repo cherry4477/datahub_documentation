@@ -3,7 +3,7 @@
 用户在客户端( Client )执行命令之前，需要先login。  
 ###6.4.1  登录客户端（ Client ）  
 #####输入
-	datahub login  URL
+	datahub login  hub.dataos.io
 	 
 #####输出  
     login as: ******@******.com
