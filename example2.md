@@ -5,7 +5,7 @@
 ###第一步 在 DataHub 网站发布名为 datahubrepo1 的数据主题
 在网站上发布名为 datahubrepo1 的数据主题  
 
-* 在 DataHub 网站（hub.dataos.io）上 我的发布 中查看，确认 datahubrepo1 的发布状态。  
+* 在 DataHub 网站（[hub.dataos.io](hub.dataos.io)）上 我的发布 中查看，确认 datahubrepo1 的发布状态。  
 
 ###第二步 通过 longin 命令登录 Client 端
 #####输入

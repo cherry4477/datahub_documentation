@@ -1,6 +1,6 @@
 ##6.6 pub  发布数据   
 <hr style=" border:4px solid #A9A9A9;" />    
-在 DataHub 网站发布数据主题（ repo ）后，可通过 pub 命令在客户端发布数据集（ item ）、发布数据包（ tag ）。
+在 DataHub 网站发布数据主题（ repo ）后，可通过 pub 命令在客户端发布数据集（ item ）、发布数据包（ tag ）。**发布数据之前，用户需要设置 [ep](ep.md) ，却确认 [ep](ep.md) 有效.**
 ###6.6.1 发布item
 在发布 item 时需要指定在哪个 repo 下发布，item 所在的 datapool ，以及 datapool 下的目录，item 的接入属性  （ accesstype ） ，item 描述（ comment ），数据类型（ supplystyle）。
 

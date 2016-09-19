@@ -4,7 +4,7 @@
 ###第一步 在DataHub网站订购数据
 在网站上订购了网络搜索热词数据（ Hot_searches / Hot_words ）  
 
-* 在 DataHub 网站（ hub.dataos.io ）上订购数据。
+* 在 DataHub 网站（ [hub.dataos.io](hub.dataos.io) ）上订购数据。
 * 在用户中心->我的订购中查看订单、以及订单状态，对“正在生效中”状态的订单，可通过客户端下载数据包（ Tag ）。   
 
 
