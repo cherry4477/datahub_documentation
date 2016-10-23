@@ -13,7 +13,7 @@
 #####输出  
     %msg       	
 #####例子  
-    bash-3.2#datahub pub datahubrepo1/datahubitem1 datahubdp1://decitem1 --comment="帮助文档样例item描述" --supplystyle=private --accesstype=batch
+    bash-3.2#datahub pub datahubrepo1/datahubitem1 datahubdp1://decitem1 --comment="帮助文档样例item描述" --accesstypesupplystyle=private --supplystyle=batch
 	DataHub : Successed in publishing.  
 
 
